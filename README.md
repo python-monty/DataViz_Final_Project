@@ -61,32 +61,37 @@ Selecting a circle (representing an Actor) in the scatter plot will display all 
 I’ve created a few proof of concept visualizations of this data. 
 
 The first is a line graph showing the number of attacks in each year by Industry Code (type).
+
 [![image](image.png)
+
 https://vizhub.com/python-monty/cyber-attacks-by-year-v3
 
 The second is a scatter plot showing the Actor attacks across time, each cirle representing and industry code (type).
+
 [![image](ScatterPlot.png)
+
 https://vizhub.com/python-monty/cyber_attack_scatterplot_with_legend
 
-
-You can put images into here by pasting them into issues.
-You can make images into links like this:
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
 ## Open Questions
 
 Since there are so many Industries as well as Actors...I'm not sure how I can represent all the datapoints in a clear manner.
+
 I'm not sure how to use the actions in one viz to change data in another at this point. 
 
 ## Milestones
 week 9 - Complete design concept
+
 week 10 - Clean up bugs in existing Line and Scatter plot
+
 week 11 - Link Line graph to scatter plot
+
 week 12 - Begin creating the bar graph
+
 week 13 - Complete the bar graph
+
 week 14 - Link the scatter plot to the bar graph
+
 week 15 - Add any new functionality if possible
+
 week 16 - Fix bugs/Finish/Present Project
