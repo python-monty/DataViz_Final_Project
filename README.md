@@ -7,21 +7,37 @@
 -This dataset provides information related to the tactics of know Cyber actors, against organizations catagorized by industry type from Jan 1 2014 to Dec 29 2023. 
 
 -An example of one data entry with the following attributes (though some maybe be null):
+
     "evtDate": "2023-12-29",
+    
     "actor": "Avos Locker",
+    
     "actor_type": "Criminal",
+    
     "organization": "Stratford University",
+    
     "industry_code": 61,
+    
     "industry": "Educational Services",
+    
     "motive": "Financial",
+    
     "event_type": "Mixed",
+    
     "event_subtype": "Data Attack",
+    
     "description": "Stratford University, discloses a ransomware attack, probably by the Avos Locker gang.",
+    
     "source_url": "https://www.databreaches.net/stratford-university-discloses-ransomware-attack-but-which-ransomware-attack/",
+    
     "country": "United States of America",
+    
     "actor_country": "Undetermined",
+    
     "year": null,
+    
     "num_attacks": null
+    
     
 -University of Maryland's CISSM Cyber Attacks Database.
   https://cissm.liquifiedapps.com/
