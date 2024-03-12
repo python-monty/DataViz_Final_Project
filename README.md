@@ -38,34 +38,47 @@ The following tasks and questions will drive the visualization and interaction d
  * What types of attacks are used by actors against their targets?
 
 ## Sketches
+This sketch shows 3 different visualizations that display different data depending on the selections made in each. 
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+Viz 1 : A line graph showing the number of attacks in each year by Industry Code.
+Viz 2 : A scatter plot showing the Actor attacks across time, each cirle representing and industry code (type).
+Viz 3 : A Bar graph showing the count of each attack type carried out by an actor.
+
+Selecting a line (representing an Industry Code) in the line graph will highlight all the attack events against that industry type in Viz 2.
+Selecting a circle (representing an Actor) in the scatter plot will display all the attacks carried out by that actor over time, by count of attack in the Viz 3 bar graph. 
 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a few proof of concept visualizations of this data. 
 
+The first is a line graph showing the number of attacks in each year by Industry Code (type).
 [![image](image.png)
+https://vizhub.com/python-monty/cyber-attacks-by-year-v3
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+The second is a scatter plot showing the Actor attacks across time, each cirle representing and industry code (type).
+[![image](scatterplot.png)
+https://vizhub.com/python-monty/cyber_attack_scatterplot_with_legend
+
 
 You can put images into here by pasting them into issues.
-
 You can make images into links like this:
-
 ```
 [![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 ```
-
-
 Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+Since there are so many Industries as well as Actors...I'm not sure how I can represent all the datapoints in a clear manner.
+I'm not sure how to use the actions in one viz to change data in another at this point. 
 
 ## Milestones
-
-(for each week, estimate what would be accomplised)
+week 9 - Complete design concept
+week 10 - Clean up bugs in existing Line and Scatter plot
+week 11 - Link Line graph to scatter plot
+week 12 - Begin creating the bar graph
+week 13 - Complete the bar graph
+week 14 - Link the scatter plot to the bar graph
+week 15 - Add any new functionality if possible
+week 16 - Fix bugs/Finish/Present Project
