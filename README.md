@@ -63,7 +63,7 @@ This sketch shows 3 different visualizations that display different data dependi
 
 Viz 1 : A line graph showing the number of attacks in each year by Industry Code.
 
-Viz 2 : A scatter plot showing the Actor attacks across time, each cirle representing and industry code (type).
+Viz 2 : A scatter plot showing the Actor attacks across time, each circle representing an actor/attacker.
 
 Viz 3 : A Bar graph showing the count of each attack type carried out by an actor.
 
