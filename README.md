@@ -59,7 +59,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 This sketch shows 3 different visualizations that display different data depending on the selections made in each. 
-[![image](Sketch.jpg)
+[![image](VizFinalProjectConcept.jpg)
 
 Viz 1 : A line graph showing the number of attacks in each year by Industry Code.
 
