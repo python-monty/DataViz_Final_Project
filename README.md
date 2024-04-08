@@ -57,6 +57,17 @@ The following tasks and questions will drive the visualization and interaction d
  * Is there any correlation between the types of industry and the attacker?
  * What types of attacks are used by actors against their targets?
 
+## Week13 Self Critique of Initial Questions/Tasks
+
+ * What types of industries are targeted most across time?
+ *     This question is answered in the CyberAttacks LineChart - Final Project Draft v2, though the original concept has changed a bit. Originally, the graph would show all the data points for all the Industry Codes in the dataset. This proved to be way too much to show at once. Based on a comment from another student, I added the ability for the user to select up to three Industry Codes at the same time to compare.
+ * What attackers are most active across time?
+ *     This question is not really answered anymore.  I've change the overall concept mainly due to handling overcrowding of data on the screen. The right question now is "What type of attacks and by which actors target a specific industry code over time?"  This question is answered by the CyberAttacks ScatterPlot - Final Project Draft v1
+ * Is there any correlation between the types of industry and the attacker?
+ *     This question will still be answered if the third viz is developed. The third will show a graph of one Actor and now many times they attacked each industry name. 
+ * What types of attacks are used by actors against their targets?
+ *     This is answered in the CyberAttacks ScatterPlot - Final Project Draft v1. It shows (for industry selected by the user) Which attacks were carried out, but which actors in what year. 
+
 ## Sketches
 This sketch shows 3 different visualizations that display different data depending on the selections made in each. 
 [![image](VizFinalProjectConceptv2.png)
@@ -95,19 +106,14 @@ Since there are so many Industries as well as Actors...I'm not sure how I can re
 
 I'm not sure how to use the actions in one viz to change data in another at this point. 
 
-## Milestones
-week 9 - Complete design concept
+## Milestones (readdressed)
 
-week 10 - Clean up bugs in existing Line and Scatter plot
+week 13 - Link Line and Scatter Plots
 
-week 11 - Link Line graph to scatter plot
+week 14 - Create bar graph and link to Scatter Plot
 
-week 12 - Begin creating the bar graph
-
-week 13 - Complete the bar graph
-
-week 14 - Link the scatter plot to the bar graph
-
-week 15 - Add any new functionality if possible
+week 15 - Clean up formatting/Fix Bugs
 
 week 16 - Fix bugs/Finish/Present Project
+
+
