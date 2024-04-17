@@ -118,9 +118,7 @@ week 16 - Fix bugs/Finish/Present Project
 
 ## Updated Progress
 Continued to work on multi viz display.  Attempted to find a way to show all the data and legend entries without crowding the presentation.  Since I'm now showing all the data, I removed the dropdown menus from the previous versions. Also removed industry codes and replaced with industry names for better clarification of data. Clicking in the "Industries" legend populates the Actor/Attack Type viz with data for that industry. Still need to add shading out all non-selected industry groups and creating more color options since these ones repeat. 
-[![image](image.png)
-
-[![image](image.png)
+[![image](DoubleViz.png)
 
 
 
