@@ -125,7 +125,7 @@ The second is a scatter plot showing the Actor attacks across time, each cirle r
 [![image](ScatterPlot.png)
 
 Intermediate verison of the project.
-[![image](ScatterPlot.png)
+[![image](Intermediate.png)
 
 Final/Current version the project. 
 [![image](DoubleViz.png)
