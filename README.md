@@ -121,7 +121,7 @@ The second is a scatter plot showing the Actor attacks across time, each cirle r
 [<img src="ScatterPlot.png">](https://vizhub.com/python-monty/cyber-attack-scatterplot-final-v1)
 
 Intermediate verison of the project.
-[<img src="Intermediate.png">](https://vizhub.com/python-monty/cyber_attacks_combined_final-v3)
+[<img src="Intermediate.png">](https://vizhub.com/python-monty/cyber_attacks_combined_final_v3)
 
 Final/Current version the project. 
 [<img src="DoubleViz.png">](https://vizhub.com/python-monty/cyber_attacks_final_draft)
