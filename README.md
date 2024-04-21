@@ -51,27 +51,25 @@
 -The data is cleaned and parsed into two different subsets of data used to provide the two different visualizations.
  Full Cyber Attack Data is used to create these two subsets: 
  -"NewData" is json formated like this example:
-    ``` [
-      {
-        "evtDate": "2023-12-29",
-        "actor": "Avos Locker",
-        "actor_type": "Criminal",
-        "organization": "Stratford University",
-        "industry_code": 61,
-        "industry": "Educational Services",
-        "motive": "Financial",
-        "event_type": "Mixed",
-        "event_subtype": "Data Attack",
-        "description": "Stratford University, discloses a ransomware attack, probably by the Avos Locker gang.",
-        "source_url": "https://www.databreaches.net/stratford-university-discloses-ransomware-attack-but-which-ransomware-attack/",
-        "country": "United States of America",
-        "actor_country": "Undetermined",
-        "year": 2023,
-        "num_attacks": null
-      }
-    ]
- ```
- -
+[
+  {
+    "evtDate": "2023-12-29",
+    "actor": "Avos Locker",
+    "actor_type": "Criminal",
+    "organization": "Stratford University",
+    "industry_code": 61,
+    "industry": "Educational Services",
+    "motive": "Financial",
+    "event_type": "Mixed",
+    "event_subtype": "Data Attack",
+    "description": "Stratford University, discloses a ransomware attack, probably by the Avos Locker gang.",
+    "source_url": "https://www.databreaches.net/stratford-university-discloses-ransomware-attack-but-which-ransomware-attack/",
+    "country": "United States of America",
+    "actor_country": "Undetermined",
+    "year": 2023,
+    "num_attacks": null
+  }
+]
 
 
 [
