@@ -1,0 +1,26 @@
+@import url('https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css');
+
+.ui-elements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  padding-left: 0px;
+  font-family: sans-serif;
+}
+
+.ui-elements-container .message {
+  font-size: 8px;
+  color: #333333;
+}
+
+.ui-elements-container .menus-container {
+  display: flex;
+  gap: 20px;
+}
+
+.ui-legend-container {
+  font-family: sans-serif;
+  font-size: 10px;
+  columns: 3;
+}
