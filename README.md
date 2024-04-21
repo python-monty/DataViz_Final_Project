@@ -117,7 +117,7 @@ The initial prototypes tried to address the abundance of data by showing a limit
 The first is a line graph showing the number of attacks in each year by Industry Code (type).
 
 
-[<img src="image.png">](https:vizhub.com/python-monty/cyber-attacks-by-year-v3),
+[<img src="image.png">](https://vizhub.com/python-monty/cyber-attacks-by-year-v3)
 
 [![image](image.png)
 
