@@ -71,7 +71,7 @@
     "num_attacks": null
   }
 ]
-```yaml
+```
 
 [
   {
