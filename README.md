@@ -115,29 +115,17 @@ Selecting a circle (representing an Actor) in the scatter plot will display all 
 The initial prototypes tried to address the abundance of data by showing a limited subset of the data, this was later changed to allow users to select up to three industry codes to show at at time. Eventually, all data was presented in the line graph but with the added functionality of allowing users to roll over and click on an industry to highlight their data in the main viz while at the same time updating the second viz with data related to that industry. The following images represent the iterations of these concepts.  
 
 The first is a line graph showing the number of attacks in each year by Industry Code (type).
-
-
 [<img src="image.png">](https://vizhub.com/python-monty/cyber-attacks-by-year-v3)
 
-[![image](image.png)
-
-https://vizhub.com/python-monty/cyber-attacks-by-year-v3
-
 The second is a scatter plot showing the Actor attacks across time, each cirle representing and industry code (type).
-
-[![image](ScatterPlot.png)
-
-https://vizhub.com/python-monty/cyber-attack-scatterplot-final-v1
+[<img src="ScatterPlot.png">](https://vizhub.com/python-monty/cyber-attack-scatterplot-final-v1)
 
 Intermediate verison of the project.
-[![image](Intermediate.png)
-
-https://vizhub.com/python-monty/cyber_attacks_combined_final_v3
+[<img src="Intermediate.png">](https://vizhub.com/python-monty/cyber_attacks_combined_final-v3)
 
 Final/Current version the project. 
-[![image](DoubleViz.png)
+[<img src="DoubleViz.png">](https://vizhub.com/python-monty/cyber_attacks_final_draft)
 
-https://vizhub.com/python-monty/cyber_attacks_final_draft
 
 
 ## Open Issues
