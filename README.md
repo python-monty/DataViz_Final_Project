@@ -96,7 +96,7 @@ The following tasks and questions where the initial driving force in the develop
 
 
 ## Sketches
-This sketch shows 3 different visualizations that display different data depending on the selections made in each. 
+This sketch shows the initially planned for 3 visualizations to display different data depending on the selections made in each. Ultimately the third viz was dropped from the concept. Showing two viz's on the same screen hightlighted the difficulty of showing three without crowding the screen. 
 [![image](VizFinalProjectConceptv2.png)
 
 Viz 1 : A line graph showing the number of attacks in each year by Industry Code.
@@ -112,7 +112,7 @@ Selecting a circle (representing an Actor) in the scatter plot will display all 
 
 ## Prototypes
 
-I’ve created a few proof of concept visualizations of this data. 
+The initial prototypes tried to address the abundance of data by showing a limited subset of the data, this was later changed to allow users to select up to three industry codes to show at at time. Eventually, all data was presented in the line graph but with the added functionality of allowing users to roll over and click on an industry to highlight their data in the main viz while at the same time updating the second viz with data related to that industry. The following images represent the iterations of these concepts.  
 
 The first is a line graph showing the number of attacks in each year by Industry Code (type).
 
@@ -124,28 +124,24 @@ The second is a scatter plot showing the Actor attacks across time, each cirle r
 
 [![image](ScatterPlot.png)
 
+Intermediate verison of the project.
+[![image](ScatterPlot.png)
+
+Final/Current version the project. 
+[![image](DoubleViz.png)
+
 https://vizhub.com/python-monty/cyber_attack_scatterplot_with_legend
 
 
-## Open Questions
-
-Since there are so many Industries as well as Actors...I'm not sure how I can represent all the datapoints in a clear manner.
-
-I'm not sure how to use the actions in one viz to change data in another at this point. 
-
-## Milestones (readdressed)
-
-week 13 - Link Line and Scatter Plots
-
-week 14 - Create bar graph and link to Scatter Plot
-
-week 15 - Clean up formatting/Fix Bugs
-
-week 16 - Fix bugs/Finish/Present Project
+## Open Issues
+* Some of the formatting is still not ideal, namely the handling of the color legend text information.  Limited the length of the text might help resolve this.
+* Adding additional labels to each viz would help the user understand what is being displayed
+* Adding interaction of the mouse icon so it changes when over clickable items would help with user interaction
+* Changing the circles in the second viz to weighted circles would be a good way to represent datapoints that have multiples.  Presently, this is not clear in the currect configuration. 
 
 ## Updated Progress
 Continued to work on multi viz display.  Attempted to find a way to show all the data and legend entries without crowding the presentation.  Since I'm now showing all the data, I removed the dropdown menus from the previous versions. Also removed industry codes and replaced with industry names for better clarification of data. Clicking in the "Industries" legend populates the Actor/Attack Type viz with data for that industry. Still need to add shading out all non-selected industry groups and creating more color options since these ones repeat. 
-[![image](DoubleViz.png)
+
 
 
 
